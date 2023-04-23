@@ -132,7 +132,7 @@ a {
 }
 
 .dots {
-    background-image: url(/imgs/dots.png);
+    background-image: url(../imgs/dots.png);
     background-repeat: no-repeat;
     position: absolute;
     height: 186px;
@@ -1498,7 +1498,7 @@ header .megamenu .links li a i {
 .stats {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    background-image: url(/imgs/stats.jpg);
+    background-image: url(../imgs/stats.jpg);
     background-size: cover;
     min-height: 300px;
     position: relative;
@@ -1594,7 +1594,7 @@ header .megamenu .links li a i {
 }
 
 .discount .image {
-    background-image: url(/imgs/discount-background1.jpg);
+    background-image: url(../imgs/discount-background1.jpg);
     background-size: cover;
     color: white;
     flex-basis: 50%;
@@ -1918,11 +1918,11 @@ background-color: var(--main-color-alt);
 
 @keyframes change-background {
     0%, 100% {
-        background-image: url(/imgs/discount-background1.jpg);
+        background-image: url(../imgs/discount-background1.jpg);
     }
 
     50% {
-        background-image: url(/imgs/discount-background2.jpg);
+        background-image: url(../imgs/discount-background2.jpg);
     }
 }
 
